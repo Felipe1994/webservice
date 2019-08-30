@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 mongoose.Promise = global.Promise;
 // mongoose.connect('mongodb://localhost/msgdb');
 // mongoose.connect('mongodb://heroku_3crx0kh0:ImperiumX1994!@ds335957.mlab.com:35957/heroku_3crx0kh0');
-mongoose.connect('mongodb://ds335957.mlab.com:35957/heroku_3crx0kh0');
+mongoose.connect('mongodb://heroku_3crx0kh0:AEJQrNJHhz5ceH@ds335957.mlab.com:35957/heroku_3crx0kh0');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
