@@ -7,7 +7,7 @@ var Message = require('./api/models/msgModels');
 var bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/msgdb');
+mongoose.connect('mongodb://0.0.0.0:27017/msgdb');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
